@@ -7,6 +7,7 @@ Hi All ArubaTH SE
 
 When you clone this rep to your laptop
 - first step -> npm i
+
 all of library will install to your project
 
 Second step Create/Update access token to .ENV file
@@ -14,8 +15,9 @@ Second step Create/Update access token to .ENV file
 - LINETOKEN=""
 Anyways don't forget to create your line notify account from https://notify-bot.line.me/my/
 
-Third use the command -> node index.js
-iaops.js will send AIops Reccomend to line notify to warn IT Admin attention in issue serevity
+Third use the command
+- node index.js
+- node iaops.js will send AIops Reccomend to line notify to warn IT Admin attention in issue serevity
 <img width="550" alt="image" src="https://user-images.githubusercontent.com/18340935/167161980-7f8ea9d5-8d5b-402e-8f5b-33281830caf4.png">
 
 
