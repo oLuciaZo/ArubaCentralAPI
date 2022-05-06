@@ -12,14 +12,16 @@ async function makeGetRequest() {
 
         let data = res.data;
         ///console.log(data);
-        dataanalyze(data);
+        _DataAnalyze(data);
     } catch (err) {
         console.log(err);
     }
 }
-function dataanalyze(data){
-    let params = data['samples'][35];
-    console.log(params);
+function _DataAnalyze(data){
+    /*let params = data['samples'][35];
+    console.log("Timestamp : ",params['timestamp']);
+    let date = new Date(params['timestamp'] * 1000)*/
+    console.log("Timestamp : ",data)
 
 }
 
