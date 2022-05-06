@@ -12,6 +12,7 @@ all of library will install to your project
 Second step Create/Update access token to .ENV file
 - TOKEN=""
 - LINETOKEN=""
+Anyways don't forget to create your line notify account from https://notify-bot.line.me/my/
 
 Third use the command -> node index.js
 iaops.js will send AIops Reccomend to line notify to warn IT Admin attention in issue serevity
